@@ -22,12 +22,15 @@ Terdapat tantangan berupa *website* yang menggunakan *server* Lighttpd CGI yang 
 	index.sh
 
 dengan tampilan halaman website:
+
 ![Halaman depan](img/02.png)
 
 ketika saya memasukkan kata `hack.lu` maka akan tampil _list_ seperti di:
+
 ![Hack.lu](img/03.png)
 
 namun ketika saya memasukkan kata `Hello world!` maka akan menambah daftar _list_ namun di-encode menjadi `Helloworld21`:
+
 ![Hello world!](img/04.png)
 
 Kesimpulannya adalah teks apapun yang akan dikirim dan mengandung simbol, akan di-_encode_ terlebih dahulu dan karakter _space_ akan dieliminasi.
